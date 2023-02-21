@@ -90,6 +90,10 @@ public class GUIConverter {
         JFrame frame = new JFrame("Converter"); // create a new JFrame window with the title "Converter"
         JPanel panel = new JPanel(new FlowLayout()); // create a new JPanel with a FlowLayout manager
 
+        /**
+         * The button used to convert temperatures. When clicked, this button prompts the user to enter a Fahrenheit temperature,
+         * converts the temperature to Celsius, and displays the result to the user. If the user enters an invalid input, an error message is displayed.
+         */
         JButton tempButton = createButton("Temperature Converter", new Dimension(200, 50), new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -105,6 +109,11 @@ public class GUIConverter {
             }
         });
 
+        /**
+         * The button used to convert distances. When clicked, this button prompts the user to enter a distance in miles,
+         * converts the distance to kilometers, and displays the result to the user. If the user enters an invalid input,
+         * an error message is displayed.
+         */
         JButton distButton = createButton("Distance Converter", new Dimension(200, 50), new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -120,6 +129,9 @@ public class GUIConverter {
             }
         });
 
+        /**
+         * The button used to exit the application. When clicked, this button terminates the application.
+         */
         JButton exitButton = createButton("Exit", new Dimension(405, 40), new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

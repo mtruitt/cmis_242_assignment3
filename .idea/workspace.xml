@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84ae4892-0c4a-4f66-af2a-cf377e706db7" name="Changes" comment="Added readme.md from PDF and added JavaDoc to each for reference">
+    <list default="true" id="84ae4892-0c4a-4f66-af2a-cf377e706db7" name="Changes" comment="Updated Readme.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUIConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUIConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676936504999</updated>
-      <workItem from="1676936506107" duration="12894000" />
+      <workItem from="1676936506107" duration="13190000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1676937771100</created>
@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676950721661</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated Readme.md">
+      <created>1676950856508</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676950856508</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +146,7 @@
     <MESSAGE value="Setup GUIConverter class based on specs&#10;&#10; Implement GUIConverter class using JFrame and JPanel&#10; GUI will have 3 buttons: “Distance Converter”, “Temperature Converter”, and “Exit”.&#10; When user clicks Exit, the program will terminate&#10; When user clicks Distance Converter, an input dialog will pop up where user can type value and click OK:&#10; When user clicks on Temperature button, an input dialog will pop up to input value and then when clicks OK, the message dialog with pop up with converted result&#10;&#10;Went back after and setup methods for repeated code to apply DRY." />
     <MESSAGE value="Added PDF for reference" />
     <MESSAGE value="Added readme.md from PDF and added JavaDoc to each for reference" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added readme.md from PDF and added JavaDoc to each for reference" />
+    <MESSAGE value="Updated Readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Readme.md" />
   </component>
 </project>
