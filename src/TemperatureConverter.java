@@ -13,7 +13,6 @@ public class TemperatureConverter extends Converter {
     /**
      * Converts the input Fahrenheit temperature to Celsius.
      * Formula: °C = 5/9(°F – 32) or °C = .5556(°F – 32)
-     * If the instance has no input value, it returns Double.NaN.
      * @return the converted temperature in Celsius, or Double.NaN if no input value is set
      */
     @Override
