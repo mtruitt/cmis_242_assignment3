@@ -98,6 +98,9 @@ public class GUIConverter {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String input = getUserInput("Enter Fahrenheit temperature:"); // Prompt the user to enter a Fahrenheit temperature
+                if (input == null) {
+                    return; // User clicked "Cancel" button, do nothing
+                }
                 try {
                     double fTemp = Double.parseDouble(input); // Convert the user's input to a double
                     TemperatureConverter converter = new TemperatureConverter(fTemp); // Create a new TemperatureConverter object with the user's input as the input value
@@ -118,6 +121,9 @@ public class GUIConverter {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String input = getUserInput("Enter distance in miles:"); // Prompt the user to enter miles
+                if (input == null) {
+                    return; // User clicked "Cancel" button, do nothing
+                }
                 try {
                     double miles = Double.parseDouble(input); // Convert the user's input to a double
                     DistanceConverter converter = new DistanceConverter(miles); // Create a new DistanceConverter object with the user's input as the input value

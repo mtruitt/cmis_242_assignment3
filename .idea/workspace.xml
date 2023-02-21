@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84ae4892-0c4a-4f66-af2a-cf377e706db7" name="Changes" comment="Updated Readme.md">
+    <list default="true" id="84ae4892-0c4a-4f66-af2a-cf377e706db7" name="Changes" comment="Added some additional comments for clarifications">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUIConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUIConverter.java" afterDir="false" />
     </list>
@@ -63,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676936504999</updated>
-      <workItem from="1676936506107" duration="13190000" />
+      <workItem from="1676936506107" duration="14926000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1676937771100</created>
@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676950856508</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added some additional comments for clarifications">
+      <created>1676951155809</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676951155809</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +154,7 @@
     <MESSAGE value="Added PDF for reference" />
     <MESSAGE value="Added readme.md from PDF and added JavaDoc to each for reference" />
     <MESSAGE value="Updated Readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Readme.md" />
+    <MESSAGE value="Added some additional comments for clarifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some additional comments for clarifications" />
   </component>
 </project>
