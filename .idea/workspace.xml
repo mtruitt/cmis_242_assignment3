@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84ae4892-0c4a-4f66-af2a-cf377e706db7" name="Changes" comment="Added PDF for reference">
-      <change afterPath="$PROJECT_DIR$/image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image_4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    <list default="true" id="84ae4892-0c4a-4f66-af2a-cf377e706db7" name="Changes" comment="Added readme.md from PDF and added JavaDoc to each for reference">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DistanceConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DistanceConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUIConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUIConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemperatureConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemperatureConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676936504999</updated>
-      <workItem from="1676936506107" duration="12701000" />
+      <workItem from="1676936506107" duration="12894000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1676937771100</created>
@@ -115,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676949184154</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added readme.md from PDF and added JavaDoc to each for reference">
+      <created>1676950721661</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676950721661</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +138,7 @@
     <MESSAGE value="Setup DistanceConverter class based on specs &amp; updated TemperatureConverter @Override comment&#10;&#10; Constructors which call parent constructors&#10; Overridden convert() method to convert input (distance in miles) to distance in kilometers and returns the value. If the instance has no input value, it should return Double.NaN&#10; Use the following formula for conversion: KM = M * 1.609" />
     <MESSAGE value="Setup GUIConverter class based on specs&#10;&#10; Implement GUIConverter class using JFrame and JPanel&#10; GUI will have 3 buttons: “Distance Converter”, “Temperature Converter”, and “Exit”.&#10; When user clicks Exit, the program will terminate&#10; When user clicks Distance Converter, an input dialog will pop up where user can type value and click OK:&#10; When user clicks on Temperature button, an input dialog will pop up to input value and then when clicks OK, the message dialog with pop up with converted result&#10;&#10;Went back after and setup methods for repeated code to apply DRY." />
     <MESSAGE value="Added PDF for reference" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added PDF for reference" />
+    <MESSAGE value="Added readme.md from PDF and added JavaDoc to each for reference" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added readme.md from PDF and added JavaDoc to each for reference" />
   </component>
 </project>
