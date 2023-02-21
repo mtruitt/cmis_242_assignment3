@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84ae4892-0c4a-4f66-af2a-cf377e706db7" name="Changes" comment="Setup TemperatureConverter class based on specs&#10;&#10; Constructors which call parent constructors&#10; Overridden convert() method to convert input (Fahrenheit temperature) to Celsius and returns the value. If the instance has no input value, it should return Double.NaN&#10; Use the following formula for conversion: C = ((F-32)*5)/9">
+    <list default="true" id="84ae4892-0c4a-4f66-af2a-cf377e706db7" name="Changes" comment="Setup DistanceConverter class based on specs &amp; updated TemperatureConverter @Override comment&#10;&#10; Constructors which call parent constructors&#10; Overridden convert() method to convert input (distance in miles) to distance in kilometers and returns the value. If the instance has no input value, it should return Double.NaN&#10; Use the following formula for conversion: KM = M * 1.609">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DistanceConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DistanceConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemperatureConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemperatureConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUIConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUIConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676936504999</updated>
-      <workItem from="1676936506107" duration="4226000" />
+      <workItem from="1676936506107" duration="11057000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1676937771100</created>
@@ -78,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676940952860</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Setup DistanceConverter class based on specs &amp; updated TemperatureConverter @Override comment&#10;&#10; Constructors which call parent constructors&#10; Overridden convert() method to convert input (distance in miles) to distance in kilometers and returns the value. If the instance has no input value, it should return Double.NaN&#10; Use the following formula for conversion: KM = M * 1.609">
+      <created>1676941398242</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676941398242</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +105,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Setup Converter class based on specs&#10;&#10; Private attribute for input of data type double&#10; Default constructor with no parameter which sets input to Double.NaN&#10; Overloaded constructor with input for parameter&#10; Get and set methods for input attribute&#10; Method convert() which returns input value" />
     <MESSAGE value="Setup TemperatureConverter class based on specs&#10;&#10; Constructors which call parent constructors&#10; Overridden convert() method to convert input (Fahrenheit temperature) to Celsius and returns the value. If the instance has no input value, it should return Double.NaN&#10; Use the following formula for conversion: C = ((F-32)*5)/9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup TemperatureConverter class based on specs&#10;&#10; Constructors which call parent constructors&#10; Overridden convert() method to convert input (Fahrenheit temperature) to Celsius and returns the value. If the instance has no input value, it should return Double.NaN&#10; Use the following formula for conversion: C = ((F-32)*5)/9" />
+    <MESSAGE value="Setup DistanceConverter class based on specs &amp; updated TemperatureConverter @Override comment&#10;&#10; Constructors which call parent constructors&#10; Overridden convert() method to convert input (distance in miles) to distance in kilometers and returns the value. If the instance has no input value, it should return Double.NaN&#10; Use the following formula for conversion: KM = M * 1.609" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup DistanceConverter class based on specs &amp; updated TemperatureConverter @Override comment&#10;&#10; Constructors which call parent constructors&#10; Overridden convert() method to convert input (distance in miles) to distance in kilometers and returns the value. If the instance has no input value, it should return Double.NaN&#10; Use the following formula for conversion: KM = M * 1.609" />
   </component>
 </project>
