@@ -1,3 +1,10 @@
+/**
+ * Mark Truitt
+ * CMIS 242 - Assignment 3: GUI & Polymorphism
+ * 2023/02/20
+ *
+ * A subclass of Converter that can convert miles to kilometers.
+ */
 public class DistanceConverter extends Converter {
 
     // Constructor

@@ -1,3 +1,11 @@
+/**
+ * Mark Truitt
+ * CMIS 242 - Assignment 3: GUI & Polymorphism
+ * 2023/02/20
+ *
+ * An abstract class that provides a template for converting values between different units.
+ * It has a single attribute to store the input value, and a single method convert that must be overridden in subclasses.
+ */
 public class Converter {
     // attribute
     private double input;

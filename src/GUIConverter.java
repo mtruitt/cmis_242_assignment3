@@ -1,3 +1,10 @@
+/**
+ * Mark Truitt
+ * CMIS 242 - Assignment 3: GUI & Polymorphism
+ * 2023/02/20
+ *
+ * The main class for the application. It creates a window that allows the user to convert distances or temperatures between metric and imperial units.
+ */
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
