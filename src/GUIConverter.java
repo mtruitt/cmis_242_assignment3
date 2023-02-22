@@ -4,6 +4,8 @@
  * 2023/02/20
  *
  * The main class for the application. It creates a window that allows the user to convert distances or temperatures between metric and imperial units.
+ *
+ * Utilized DRY to reduce the repeated code for things like messages, input, results, buttons, and components for panels.
  */
 import java.awt.Component;
 import java.awt.Dimension;
@@ -145,7 +147,7 @@ public class GUIConverter {
             }
         });
 
-        addComponents(panel, new FlowLayout(), tempButton, distButton, exitButton);
+        this.addComponents(panel, new FlowLayout(), tempButton, distButton, exitButton);
 
         frame.add(panel); // Add panel to frame
         frame.setSize(430, 150); // Set the size of the frame
